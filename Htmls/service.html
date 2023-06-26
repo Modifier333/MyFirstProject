@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Csss/serviceStyle.css">
+        
+
+    </head>
+    <body>
+        <header>
+            <div id="header_div">
+               
+                <div id="logo_div">
+                    <img src="../Photos/Jaguar_2012_logo.png" >
+                </div>
+                <div id="nav_div">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html" >Home</a></li>
+                            <li><a href="Htmls/service.html" class="active">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="sociallinks_div">
+                    <a href="https://www.facebook.com/login/"><img src="../Photos/fb.gif" alt="facebaook" class="fb"></a>
+                    <a href="https://www.instagram.com/accounts/login/"><img src="../Photos/ig.gif" alt="Instagram" class="ig"></a>
+                    <a href="https://web.whatsapp.com/"><img src="../Photos/wa.gif" alt="WhatsApp" class="wa"></a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="slideshow-container">
+            <div class="slide">
+              <img src="../Photos/banner.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+              <img src="../Photos/banner2.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+              <img src="../Photos/banner3.png" alt="Slide 3">
+            </div>
+          </div>
+          <script>
+            var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
+
+function showSlide(index) {
+  slides[currentSlide].style.opacity = 0;
+  slides[index].style.opacity = 1;
+  currentSlide = index;
+}
+
+function nextSlide() {
+  var nextIndex = currentSlide + 1;
+  if (nextIndex >= slides.length) {
+    nextIndex = 0;
+  }
+  showSlide(nextIndex);
+}
+
+// Change slides automatically
+setInterval(nextSlide, 3000); // Adjust the timing (in milliseconds) as needed
+
+// Show the initial slide
+showSlide(0);
+
+          </script>
+    </body>
+</html>

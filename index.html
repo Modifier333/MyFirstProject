@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="Csss/homeStyles.css">
+<link rel="stylesheet" href="../Csss/serviceStyle.css">
+    </head>
+    <body>
+<div class="container">
+   
+    <header>
+        <div id="header_div">
+           
+            <div id="logo_div">
+                <img src="Photos/Jaguar_2012_logo.png" >
+            </div>
+            <div id="nav_div">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="Htmls/service.html">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="sociallinks_div">
+                <a href="https://www.facebook.com/login/"><img src="Photos/fb.gif" alt="facebaook" class="fb"></a>
+                <a href="https://www.instagram.com/accounts/login/"><img src="Photos/ig.gif" alt="Instagram" class="ig"></a>
+                <a href="https://web.whatsapp.com/"><img src="Photos/wa.gif" alt="WhatsApp" class="wa"></a>
+            </div>
+        </div>
+    </header>
+    <div class="slideshow-container">
+        <div class="slide">
+          <img src="Photos/banner.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="Photos/banner2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="Photos/banner3.png" alt="Slide 3">
+        </div>
+      </div>
+      <script>
+        var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
+
+function showSlide(index) {
+slides[currentSlide].style.opacity = 0;
+slides[index].style.opacity = 1;
+currentSlide = index;
+}
+
+function nextSlide() {
+var nextIndex = currentSlide + 1;
+if (nextIndex >= slides.length) {
+nextIndex = 0;
+}
+showSlide(nextIndex);
+}
+
+// Change slides automatically
+setInterval(nextSlide, 3000); // Adjust the timing (in milliseconds) as needed
+
+// Show the initial slide
+showSlide(0);
+
+      </script>
+   
+</div>
+<div class="whywearebest">
+
+    <h1 style="color:#223a5c">why we are best ? </h1>
+<div class="whyImages">
+    <div class="why1">
+        <h3 id="whytitle">Quick Assistance</h3>
+        <img src="Photos/Quick Assistance.jpg" alt="quickAssistance" width="140px">
+        <p id="whyText">Client service Assistance is our first Priority. We ensure in the busy schedule also we revert back within an hour. </p>
+    </div>
+    <div class="why2">
+        <h3 id="whytitle">Professional Team</h3>
+        <img src="Photos/ProfessionalTeam.jpg" alt="quickAssistance" width="200px">
+        <p id="whyText">We work with Professional and Experienced team. Our Team is very Knowledgable and passionate about the work </p>
+    </div>
+    <div class="why3">
+        <h3 id="whytitle">Safety Protocal</h3>
+        <img src="Photos/Safety Protocal.jpg" alt="quickAssistance" width="140px">
+        <p id="whyText">Our Professional team will strictly follows the safety protocal for the client site or product as well as ourselves.</p>
+    </div>
+    <div class="why4">
+        <h3 id="whytitle">Neat Handover</h3>
+        <img src="Photos/Neat Handover.jpg" alt="quickAssistance" width="140px">
+        <p id="whyText">Once the Work got finish its our responsible to handover a site to the client with clean and clear</p>
+    </div>
+</div>
+    
+</div>
+<div class="Howitworks1">
+    <div class="howTitle">
+        <h1 style="color:#223a5c">How It Works ?</h1>
+    </div>
+    
+<div class="step1">
+    <h4>Step 1</h4>
+    <a href="#sociallinks_div"><img src="Photos/ScheduleAnAppointment.jpg" alt="scheduleAnAppointment" width="300px"></a>
+    <h3>Schedule an Appointment</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+<div class="step1">
+    <h4>Step 2</h4>
+    <img src="Photos/siteVisit.jpg" alt="scheduleAnAppointment" width="300px" height="300px">
+    <h3>Site Visiting</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+<div class="step1">
+    <h4>Step 3</h4>
+    <img src="Photos/colorSelection.jpg" alt="scheduleAnAppointment" width="300px">
+    <h3>color Selection</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+
+
+</div>
+<div class="Howitworks2">
+  
+    
+<div class="step2">
+    <h4>Step 4</h4>
+    <img src="Photos/workStarted.jpg" alt="scheduleAnAppointment" width="300px">
+    <h3>Work Started</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+<div class="step2">
+    <h4>Step 5</h4>
+    <img src="Photos/workCompletion.jpg" alt="scheduleAnAppointment" width="300px">
+    <h3>Work Completion</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+<div class="step2">
+    <h4>Step 6</h4>
+    <img src="Photos/Handover.jpg" alt="scheduleAnAppointment" width="200px" height="200px">
+    <h3>site Handover</h3>
+    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
+        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
+        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+</div>
+
+
+</div>
+    </body>
+
+</html>

@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+.container{
+    background-color: white;
+    width: 100%;
+   height: 400px;
+    position:relative;
+
+}
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+
+}
+
+#header_div{
+    width: 100%;
+
+}
+#logo_div{
+    float: left;
+    width: 25%;
+    min-height: 100px;
+    text-align: center;
+    
+}
+#logo_div img{
+    width: 200px;
+    min-height: 70px;
+    line-height: 100px;
+}
+
+
+#nav_div{
+    width: 50%;
+    min-height: 100px;
+    float: left;
+    text-align: center;
+    
+}
+
+#nav_div ul{
+    
+    list-style-type: none;
+    
+}
+#nav_div ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+   margin-left: 20px;
+    
+    
+}
+
+#nav_div ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s ease;
+    padding: 5px 20px;
+    
+    
+}
+#nav_div ul li a:hover{
+    text-decoration: none;
+    color: white;
+    
+    background-color: black;
+    border-radius: 10px;
+    
+}
+#nav_div ul li a.active {
+    text-decoration: none;
+    color: white;
+    
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+
+#sociallinks_div{
+    margin-top: 10px;
+    width: 25%;
+    float: right;
+    text-align: center;
+    min-height: 100px;
+    line-height: 100px;
+    
+}
+.fb, .ig, .wa{
+    width: 40px;
+    min-height: 30px;
+    line-height: 100px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.whywearebest{
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    margin-top: 5px;
+    background-color:white;
+   
+}
+.whywearebest h1{
+    width: 100%;
+    min-height: 120px;
+    position: relative;
+    background-color:white;
+    text-align: center;
+    line-height: 120px;
+}
+.whyImages{
+    width: 100%;
+    min-height: 400px;
+    
+}
+.why1, .why2, .why3, .why4{
+    width:22%;
+    padding: 5px;
+    min-height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: center;
+}
+#whyText{
+
+    color: #693018;
+}
+#whytitle{
+color:#223a5c;
+}
+
+.Howitworks1{
+    background-color:white
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 10px;
+}
+.Howitworks2{
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+    position: relative;
+    background-color:white;
+}
+.Howitworks1 .howTitle{
+    width: 100%;
+    min-height: 120px;
+    position: relative;
+    text-align: center;
+    line-height: 120px;
+}
+.step1{
+    width:30%;
+    padding: 10px;
+    min-height: 450px;
+ 
+   
+    margin-left: 3%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.step2{
+    width:30%;
+    padding: 10px;
+    min-height: 370px;
+    
+    margin-left: 3%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
