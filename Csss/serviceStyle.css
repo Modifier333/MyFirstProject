@@ -18,6 +18,10 @@ header{
     background-color: white;
 
 }
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
 
 #header_div{
     width: 100%;

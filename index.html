@@ -26,7 +26,7 @@
             <div id="sociallinks_div">
                 <a href="https://www.facebook.com/login/"><img src="Photos/fb.gif" alt="facebaook" class="fb"></a>
                 <a href="https://www.instagram.com/accounts/login/"><img src="Photos/ig.gif" alt="Instagram" class="ig"></a>
-                <a href="https://web.whatsapp.com/"><img src="Photos/wa.gif" alt="WhatsApp" class="wa"></a>
+                <a href="https://web.whatsapp.com/"><img src="Photos/wa.gif" alt="WhatsApp" class="wa" onclick="openWa()"></a>
             </div>
         </div>
     </header>
@@ -101,28 +101,22 @@ showSlide(0);
     </div>
     
 <div class="step1">
-    <h4>Step 1</h4>
+    <h4 id="steps">Step 1</h4>
     <a href="#sociallinks_div"><img src="Photos/ScheduleAnAppointment.jpg" alt="scheduleAnAppointment" width="300px"></a>
-    <h3>Schedule an Appointment</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h3 id="how">Schedule an Appointment</h3>
+    <p id="stepText">Schedule an Appointment via <a href="#">call/mail</a>call/mail Our Team will be assist you further datails</p>
 </div>
 <div class="step1">
-    <h4>Step 2</h4>
-    <img src="Photos/siteVisit.jpg" alt="scheduleAnAppointment" width="300px" height="300px">
-    <h3>Site Visiting</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h4 id="steps">Step 2</h4>
+    <img src="Photos/siteVisit.jpg" alt="siteVisit" width="300px" height="300px">
+    <h3 id="how">Site Visiting</h3>
+    <p id="stepText">Once the Schedule is fixed our team head will visit the site and provide the respective quotation</p>
 </div>
 <div class="step1">
-    <h4>Step 3</h4>
-    <img src="Photos/colorSelection.jpg" alt="scheduleAnAppointment" width="300px">
-    <h3>color Selection</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h4 id="steps">Step 3</h4>
+    <img src="Photos/colorSelection.jpg" alt="colorSelection" width="300px">
+    <h3 id="how">color Selection</h3>
+    <p id="stepText">We provide the color catalogues to the clients as well as professional color advice if any needed.</p>
 </div>
 
 
@@ -131,32 +125,62 @@ showSlide(0);
   
     
 <div class="step2">
-    <h4>Step 4</h4>
-    <img src="Photos/workStarted.jpg" alt="scheduleAnAppointment" width="300px">
-    <h3>Work Started</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h4 id="steps">Step 4</h4>
+    <img src="Photos/workStarted.jpg" alt="workembark" width="300px">
+    <h3 id="how">Work embark</h3>
+    <p id="stepText">work starts on schedule with proper safety protocol.</p>
 </div>
 <div class="step2">
-    <h4>Step 5</h4>
-    <img src="Photos/workCompletion.jpg" alt="scheduleAnAppointment" width="300px">
-    <h3>Work Completion</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h4 id="steps">Step 5</h4>
+    <img src="Photos/workCompletion.jpg" alt="workCompletion" width="300px">
+    <h3 id="how">Work Completion</h3>
+    <p id="stepText">Our Team will finish the work within period of time without fail.</p>
 </div>
 <div class="step2">
-    <h4>Step 6</h4>
-    <img src="Photos/Handover.jpg" alt="scheduleAnAppointment" width="200px" height="200px">
-    <h3>site Handover</h3>
-    <p id="stepText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi rem 
-        quaerat quisquam cupiditate sit, quibusdam aliquid obcaecati, saepe, 
-        accusamus tenetur perferendis. Consectetur id laborum distinctio illo omnis! Quaerat, blanditiis!</p>
+    <h4 id="steps">Step 6</h4>
+    <img src="Photos/Handover.jpg" alt="siteHandover" width="200px" height="180px">
+    <h3 id="how">site Handover</h3>
+    <p id="stepText">After Finish the work we handover the site to the client with spotless and shiny.</p>
 </div>
 
 
 </div>
-    </body>
+<div class="otherServices">
+    <h2 style="color:#223a5c">We Also help you with...</h2>
+<div id="other1">
+    <img src="image1" alt="image1" id="otherImages" width="150px">
+</div>
+<div id="other1">
+    <img src="image1" alt="image1" id="otherImages" width="150px">
+</div>
+<div id="other1">
+    <img src="image1" alt="image1" id="otherImages" width="150px">
+</div>
+<div id="other1">
+    <img src="image1" alt="image1" id="otherImages" width="150px">
+</div>
+
+</div>
+
+<div class="bottom">
+    Copyright 2021-2023 <img src="Photos/copyright.png" alt="copyright" width="14px"> All Rights Reserved.
+    <div id="down">
+        <img src="Photos/fb.gif" alt="fb" width="30px">
+        <img src="Photos/ig.gif" alt="mail" width="30px">
+        <img src="Photos/wa.gif" alt="whatsapp" width="30px" onclick="openWa()">
+    </div>
+    <script>
+        function openWa(){
+    open("https://wa.me/+919515943665");
+}
+    </script>
+
+</div>
+
+
+</body>
+    <footer>
+        
+    </footer>
 
 </html>
