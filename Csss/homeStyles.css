@@ -68,7 +68,7 @@ header{
 
 #nav_div ul li a{
     text-decoration: none;
-    color: black;
+    color:#223a5c;
     transition: 0.6s ease;
     padding: 5px 20px;
     
@@ -78,7 +78,7 @@ header{
     text-decoration: none;
     color: white;
     
-    background-color: black;
+    background-color: #223a5c;
     border-radius: 10px;
     
 }
@@ -86,7 +86,7 @@ header{
     text-decoration: none;
     color: white;
     
-    background-color: black;
+    background-color: #223a5c;
     border-radius: 10px;
     
 }
