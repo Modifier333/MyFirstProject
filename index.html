@@ -25,8 +25,8 @@
                 </nav>
             </div>
             <div id="sociallinks_div">
-                <a href="https://www.facebook.com/login/"><img src="Photos/fb.gif" alt="facebaook" class="fb"></a>
-                <img src="Photos/ig.gif" alt="Instagram" class="ig" onclick="opneFb()"></a>
+                <img src="Photos/fb.gif" alt="facebaook" class="fb" onclick="openFb()">
+                <img src="Photos/ig.gif" alt="Instagram" class="ig" onclick="openIg()">
                 <img src="Photos/wa.gif" alt="WhatsApp" class="wa" onclick="openWa()">
             </div>
         </div>
@@ -150,7 +150,7 @@ showSlide(0);
     <h2 style="color:#223a5c">We Also help you with...</h2>
 <div id="other1">
     <img src="Photos/pop.jpg" alt="image1" id="otherImages" width="225px" height="151px">
-    <h4 id="otherTitle">POPDesigns</h4>
+     <h4 id="otherTitle">POP Designs</h4>
 </div>
 <div id="other1">
     <img src="Photos/lights.jpg" alt="image1" id="otherImages" width="225px">
@@ -172,20 +172,25 @@ showSlide(0);
 <div class="bottom">
     Copyright 2021-2023 <img src="Photos/copyright.png" alt="copyright" width="14px"> All Rights Reserved.
     <div id="down">
-        <img src="Photos/fb.gif" alt="fb" width="30px">
-        <img src="Photos/ig.gif" alt="mail" width="30px">
+        <img src="Photos/fb.gif" alt="fb" width="30px" onclick="openFb()">
+        <img src="Photos/ig.gif" alt="mail" width="30px" onclick="openIg()">
         <img src="Photos/wa.gif" alt="whatsapp" width="30px" onclick="openWa()">
     </div>
     <script>
         function openWa(){
     open("https://wa.me/+919550927922");
-<<<<<<< HEAD
-=======
+
+
+}
+function openIg(){
+    open("https://instagram.com/color__paints?igshid=NGExMmI2YTkyZg==");
+
+
 }
 
-function opneFb(){
-    open("https://fb://facewebmodal/f?href= ");
->>>>>>> 5034a86b05aa8b8f7d5d12fb60708e5e93a6621d
+function openFb(){
+    open("https://www.facebook.com/profile.php?id=100094121926054&mibextid=ZbWKwL");
+
 }
     </script>
 

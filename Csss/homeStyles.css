@@ -219,17 +219,13 @@ margin-bottom: 10px;
 
 .otherServices{
     width: 100%;
-    min-height: 500px;
+    min-height: 300px;
     position: relative;
-   
-  
-    
 
 }
+
 otherImages{
     position: relative;
-
-    
 
 }
 
@@ -241,8 +237,8 @@ position: relative;
 margin: 15px;
 }
 #other1 #otherTitle{
-    float: left;
-width: 22%;
+    
+width: 100%;
 margin: 20px;
 
 }

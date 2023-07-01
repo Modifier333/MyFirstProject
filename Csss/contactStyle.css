@@ -111,6 +111,7 @@ body{
     min-height: 50px;
     background-color: azure;
     margin-top: 25px;
+    
 }
 #contactTitle{
     width: 100%;
@@ -118,11 +119,16 @@ body{
     text-align: center;
     color: #223a5c;
 }
-#call{
+.call{
+    margin-left: 60px;
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
     
-position: relative;
-    display: inline;
 }
 #call a{
+    
 text-decoration: none;
 }
