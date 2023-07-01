@@ -221,6 +221,7 @@ margin-bottom: 10px;
     width: 100%;
     min-height: 500px;
     position: relative;
+   
   
     
 
@@ -233,10 +234,17 @@ otherImages{
 }
 
 #other1{
-    width: 22%;
-    display: inline;
+    width: 21%;
+    min-height: 300px;
+    display: inline-block;
 position: relative;
-margin: 3%;
+margin: 15px;
+}
+#other1 #otherTitle{
+    float: left;
+width: 22%;
+margin: 20px;
+
 }
 
 .bottom{
