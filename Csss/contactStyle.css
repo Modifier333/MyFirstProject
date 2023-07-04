@@ -108,27 +108,83 @@ body{
 
 .contact{
     width: 100%;
-    min-height: 50px;
+    min-height: auto;
     background-color: azure;
     margin-top: 25px;
+    
     
 }
 #contactTitle{
     width: 100%;
-    min-width: 100px;
+    min-height: auto;
     text-align: center;
     color: #223a5c;
 }
-.call{
+#contactDetails{
+width: 100%;
+min-height:200px;
+}
+#call{
     margin-left: 60px;
     width: 100%;
-    min-height: 300px;
-    position: relative;
+    min-height: auto;
     display: inline-block;
     margin-top: 50px;
+    position:relative;
+   
+    
     
 }
 #call a{
     
 text-decoration: none;
+color: #223a5c;
 }
+#callName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#mail{
+    margin-left: 60px;
+    width: 100%;
+    min-height: auto;
+    display: inline-block;
+    margin-top: 5px;
+    position:relative;
+   
+    
+    
+}
+#mail a{
+    
+text-decoration: none;
+color: #223a5c;
+}
+#mailName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#location{
+    margin-left: 60px;
+    width: 100%;
+    min-height: auto;
+    display: inline-block;
+    margin-top: 5px;
+    position:relative;
+   
+    
+    
+}
+#location a{
+    color: #223a5c;
+text-decoration: none;
+
+}
+#locationName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+

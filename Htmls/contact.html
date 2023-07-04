@@ -34,16 +34,41 @@
         <div class="contact">
             <h1 id="contactTitle">Get In Touch</h1>
             <div id="contactDetails">
-            <div class="call">
+            <div id="call">
                 
-                <a href="tel:+919550927977" id="">
-                    <img src="../Photos/phone-call.png" alt="call" width="30px">
-                    <h3>+919550927977</h3>
+                <a href="tel:+919550927977">
+                <img src="../Photos/phone-call.png" alt="call" width="25px"><span id="callName"><b>Phone Number :</b> </span>   +91 9550927977
+                 
                 </a>
+        
             </div>
+            <div id="mail">
+                
+                <a href="mailto:your1stopsolution@outlook.com">
+                <img src="../Photos/mail.png" alt="call" width="25px"><span id="mailName"><b>Mail :</b> </span>   your1stopsolution@outlook.com
+                 
+                </a>
+                
+        
+            </div>
+            <div id="location">
+                
+                <a href="tel:+919550927977" onclick="location()">
+                <img src="../Photos/location.png" alt="call" width="25px"><span id="locationName"><b>Location :</b> </span>  United building, road no-5, Banjara Hills, Hyderabad-500034, Telangana,India.
+                 
+                </a>
+                
+        
+            </div>
+
             </div>
         </div>
         
 
     </body>
+    <script>
+        function location(){
+            open("https://goo.gl/maps/Lhzx2mMvddJA3LCw8");
+        }
+    </script>
 </html>
