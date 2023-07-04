@@ -90,6 +90,7 @@ body{
 
 
 #sociallinks_div{
+    cursor: pointer;
     margin-top: 10px;
     width: 25%;
     float: right;
@@ -104,4 +105,13 @@ body{
     line-height: 100px;
     margin-left: 20px;
     
+}
+.bottom{
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+#down{
+    margin-top: 15px;
+    margin-left: 30px;
 }

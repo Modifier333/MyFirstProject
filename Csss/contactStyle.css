@@ -90,6 +90,7 @@ body{
 
 
 #sociallinks_div{
+    cursor: pointer;
     margin-top: 10px;
     width: 25%;
     float: right;
@@ -150,14 +151,13 @@ color: #223a5c;
     width: 100%;
     min-height: auto;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
     position:relative;
    
     
     
 }
-#mail a{
-    
+#mail a{    
 text-decoration: none;
 color: #223a5c;
 }
@@ -171,7 +171,7 @@ color: #223a5c;
     width: 100%;
     min-height: auto;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
     position:relative;
    
     
@@ -186,5 +186,15 @@ text-decoration: none;
     color: black;
     margin-right: 30px;
     margin-left: 10px;
+}
+
+.bottom{
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+#down{
+    margin-top: 15px;
+    margin-left: 30px;
 }
 

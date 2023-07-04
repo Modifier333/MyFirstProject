@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../Csss/serviceStyle.css">
         
+        <link rel="stylesheet" href="../Csss/heplStyle.css">
+        <script src="../jss/help_script.js"></script>
 
     </head>
     <body>
@@ -16,20 +17,46 @@
                     <nav>
                         <ul>
                             <li><a href="../index.html" >Home</a></li>
-                            <li><a href="Htmls/service.html">Services</a></li>
+                            <li><a href="service.html">Services</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <li><a href="help.html"  class="active">Help</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div id="sociallinks_div">
-                    <a href="https://www.facebook.com/login/"><img src="../Photos/fb.gif" alt="facebaook" class="fb"></a>
-                    <a href="https://www.instagram.com/accounts/login/"><img src="../Photos/ig.gif" alt="Instagram" class="ig"></a>
-                    <a href="https://web.whatsapp.com/"><img src="../Photos/wa.gif" alt="WhatsApp" class="wa"></a>
+                    <img src="../Photos/fb.gif" alt="facebaook" class="fb" onclick="openFb()">
+                    <img src="../Photos/ig.gif" alt="Instagram" class="ig" onclick="openIg()">
+                    <img src="../Photos/wa.gif" alt="WhatsApp" class="wa" onclick="openWa()">
                 </div>
             </div>
         </header>
+       
         
+           
+            <div class="help">
+            <h2>Help Portal</h2>
+            <p>select your Query below</p>
+            
+            <div class="dropdown">
+              <button class="dropbtn">facing an issue</button>
+              <div class="dropdown-content">
+               <button class="btn" onclick="inWebsite()">In Website</button> 
+                <button class="btn" onclick="inService()">In Service</button>
+                <button class="btn" onclick="inContact()">In Contact</button>
+              </div>
+            </div>
+            
+       </div>
+       <div class="bottom">
+        Copyright 2021-2023 <img src="../Photos/copyright.png" alt="copyright" width="14px"> All Rights Reserved.
+        <div id="down">
+            <img src="../Photos/fb.gif" alt="fb" width="30px" onclick="openFb()">
+            <img src="../Photos/ig.gif" alt="mail" width="30px" onclick="openIg()">
+            <img src="../Photos/wa.gif" alt="whatsapp" width="30px" onclick="openWa()">
+        </div>
+       
+    
+    </div>
        
     </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="../Csss/contactStyle.css">
-        
+        <script src="../jss/contact_script.js"></script>
 
     </head>
     <body>
@@ -17,16 +17,15 @@
                         <ul>
                             <li><a href="../index.html" >Home</a></li>
                             <li><a href="service.html" >Services</a></li>
-                            <li><a href="Htmls/contact.html" class="active">Contact</a></li>
+                            <li><a href="contact.html" class="active">Contact</a></li>
                             <li><a href="help.html">Help</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div id="sociallinks_div">
-                    <a href="https://www.facebook.com/login/"><img src="../Photos/fb.gif" alt="facebaook" class="fb"></a>
-                    <img src="../Photos/ig.gif" alt="Instagram" class="ig">
-                    <img src="../Photos/wa.gif" alt="WhatsApp" class="wa" onclick=""></a>
-
+                    <img src="../Photos/fb.gif" alt="facebaook" class="fb" onclick="openFb()">
+                    <img src="../Photos/ig.gif" alt="Instagram" class="ig" onclick="openIg()">
+                    <img src="../Photos/wa.gif" alt="WhatsApp" class="wa" onclick="openWa()">
                 </div>
             </div>
         </header>
@@ -53,7 +52,7 @@
             </div>
             <div id="location">
                 
-                <a href="tel:+919550927977" onclick="location()">
+                <a href="https://goo.gl/maps/Lhzx2mMvddJA3LCw8">
                 <img src="../Photos/location.png" alt="call" width="25px"><span id="locationName"><b>Location :</b> </span>  United building, road no-5, Banjara Hills, Hyderabad-500034, Telangana,India.
                  
                 </a>
@@ -63,12 +62,17 @@
 
             </div>
         </div>
+        <div class="bottom">
+            Copyright 2021-2023 <img src="../Photos/copyright.png" alt="copyright" width="14px"> All Rights Reserved.
+            <div id="down">
+                <img src="../Photos/fb.gif" alt="fb" width="30px" onclick="openFb()">
+                <img src="../Photos/ig.gif" alt="mail" width="30px" onclick="openIg()">
+                <img src="../Photos/wa.gif" alt="whatsapp" width="30px" onclick="openWa()">
+            </div>
+           
         
+        </div>
 
     </body>
-    <script>
-        function location(){
-            open("https://goo.gl/maps/Lhzx2mMvddJA3LCw8");
-        }
-    </script>
+    
 </html>

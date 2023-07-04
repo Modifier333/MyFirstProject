@@ -90,6 +90,7 @@ body{
 
 
 #sociallinks_div{
+    cursor: pointer;
     margin-top: 10px;
     width: 25%;
     float: right;
@@ -104,4 +105,67 @@ body{
     line-height: 100px;
     margin-left: 20px;
     
+}
+.help{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    position: relative;
+    
+    
+}
+.dropbtn {
+
+    margin-top: 30px;
+    color:#223a5c;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   
+    min-width: 160px;
+    
+   
+  }
+  
+  .dropdown-content .btn {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.6s ease;
+    margin: 10PX;
+  }
+  
+  .dropdown-content .btn:hover {
+    background-color: #223a5c;
+    color: white;
+
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #223a5c;
+    color: white;
+}
+
+.bottom{
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+#down{
+    margin-top: 15px;
+    margin-left: 30px;
 }

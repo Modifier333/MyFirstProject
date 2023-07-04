@@ -99,6 +99,7 @@ header{
     text-align: center;
     min-height: 100px;
     line-height: 100px;
+    cursor: pointer;
     
 }
 .fb, .ig, .wa{
@@ -244,6 +245,7 @@ margin: 20px;
 }
 
 .bottom{
+    cursor: pointer;
     text-align: center;
 }
 #down{

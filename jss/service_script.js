@@ -1,22 +1,16 @@
-var slides = document.querySelectorAll('.slide');
-var currentSlide = 0;
+function openWa(){
+    
+  open("https://wa.me/+919550927922");
 
-function showSlide(index) {
-  slides[currentSlide].style.opacity = 0;
-  slides[index].style.opacity = 1;
-  currentSlide = index;
+
+}
+function openIg(){
+  open("https://instagram.com/color__paints?igshid=NGExMmI2YTkyZg==");
+
+
 }
 
-function nextSlide() {
-  var nextIndex = currentSlide + 1;
-  if (nextIndex >= slides.length) {
-    nextIndex = 0;
-  }
-  showSlide(nextIndex);
+function openFb(){
+  open("https://www.facebook.com/profile.php?id=100094121926054&mibextid=ZbWKwL");
+
 }
-
-// Change slides automatically
-setInterval(nextSlide, 3000); // Adjust the timing (in milliseconds) as needed
-
-// Show the initial slide
-showSlide(0);
