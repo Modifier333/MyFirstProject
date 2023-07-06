@@ -30,40 +30,88 @@
             </div>
         </header>
         <div class="services">
+            <div class="slideshow-container">
+                <div class="slide">
+                  <img src="../Photos/paint1.jpeg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                  <img src="../Photos/paint2.jpeg" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="../Photos/lights.jpg" alt="Slide 4">
+                  </div>
+                  <div class="slide">
+                    <img src="../Photos/pop2.jpg" alt="Slide 5">
+                  </div>
+                  <div class="slide">
+                    <img src="../Photos/pop4.jpg" alt="Slide 6">
+                  </div>
+                  <div class="slide">
+                    <img src="../Photos/lights2.jpg" alt="Slide 7">
+                  </div>
+                  <div class="slide">
+                    <img src="../Photos/lights3.jpg" alt="Slide 8">
+                  </div>
+            </div>
+        <script>
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+        
+        function showSlide(index) {
+        slides[currentSlide].style.opacity = 0;
+        slides[index].style.opacity = 1;
+        currentSlide = index;
+        }
+        
+        function nextSlide() {
+        var nextIndex = currentSlide + 1;
+        if (nextIndex >= slides.length) {
+        nextIndex = 0;
+        }
+        showSlide(nextIndex);
+        }
+        
+        // Change slides automatically
+        setInterval(nextSlide, 3000); // Adjust the timing (in milliseconds) as needed
+        
+        // Show the initial slide
+        showSlide(0);
+        
+              </script>
             <div class="painting">
                 <h2>Paintings..</h2>
-                <img src="../Photos/bgm.jpg" alt="paint1">
-                <img src="" alt="paint2">
-                <img src="" alt="paint3">
-                <img src="" alt="paint4">
+                <img src="../Photos/paint1.jpeg" alt="paint2" width="230px" height="152px" id="sp1">
+                <img src="../Photos/paint2.jpeg" alt="paint3" width="230px" height="152px" id="sp1">
+                <img src="../Photos/paint3.jpg" alt="paint4" width="230px" height="152px" id="sp1">
+                <img src="../Photos/paint4.jpg" alt="paint1" width="230PX" height="152px" id="sp1" >
             </div>
             <div class="POP_Designs">
                 <h2>POP Designs..</h2>
-                <img src="../Photos/pop.jpg" alt="pop1">
-                <img src="" alt="pop2">
-                <img src="" alt="pop3">
-                <img src="" alt="pop4">
+                <img src="../Photos/pop1.jpg" alt="pop1"  width="230px" height="152px" id="sp1">
+                <img src="../Photos/pop2.jpg" alt="pop2"  width="230px" height="152px" id="sp1">
+                <img src="../Photos/pop3.jpg" alt="pop3" width="230px" height="152px" id="sp1">
+                <img src="../Photos/pop4.jpg" alt="pop4"  width="230px" height="152px" id="sp1">
             </div>
             <div class="Ceiling_lights">
                 <h2>Ceiling/Focus Lights..</h2>
-                <img src="../Photos/lights.jpg" alt="lights1">
-                <img src="" alt="lights2">
-                <img src="" alt="lights3">
-                <img src="" alt="lights4">
+                <img src="../Photos/lights.jpg" alt="lights1" width="230px" height="152px" id="sp1">
+                <img src="../Photos/lights2.jpg" alt="lights2" width="230px" height="152px" id="sp1">
+                <img src="../Photos/lights3.jpg" alt="lights3" width="230px" height="152px" id="sp1">
+                <img src="../Photos/lights4.jpg" alt="lights4" width="230px" height="152px" id="sp1">
             </div>
             <div class="Tiles">
                 <h2>Floor Tiles..</h2>
-                <img src="../Photos/tiles.jpg" alt="Tiles1">
-                <img src="" alt="Tiles2">
-                <img src="" alt="Tiles3">
-                <img src="" alt="Tiles4">
+                <img src="../Photos/tiles.jpg" alt="Tiles1" width="230px" height="152px" id="sp1">
+                <img src="../Photos/tiles2.jpg" alt="Tiles2" width="230px" height="152px" id="sp1">
+                <img src="../Photos/tiles3.jpg" alt="Tiles3" width="230px" height="152px" id="sp1">
+                <img src="../Photos/tiles4.jpg" alt="Tiles4" width="230px" height="152px" id="sp1">
             </div>
             <div class="Carpenter">
                 <h2>Carpenter works..</h2>
-                <img src="../Photos/carpenter.webp" alt="Carpenter1">
-                <img src="" alt="Carpenter2">
-                <img src="" alt="Carpenter3">
-                <img src="" alt="Carpenter4">
+                <img src="../Photos/carpenter.webp" alt="Carpenter1"  width="230px" height="152px" id="sp1">
+                <img src="../Photos/carpenter2.jpg" alt="Carpenter2"  width="230px" height="152px" id="sp1">
+                <img src="../Photos/carpenter3.jpg" alt="Carpenter3"  width="230px" height="152px" id="sp1">
+                <img src="../Photos/carpenter4.jpg" alt="Carpenter4"  width="230px" height="152px" id="sp1">
             </div>
         </div>
         <div class="bottom">
