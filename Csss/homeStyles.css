@@ -1,4 +1,5 @@
 *{
+    user-select: none;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -39,8 +40,9 @@ header{
 }
 #logo_div img{
     width: 200px;
-    min-height: 70px;
+    min-height: 100px;
     line-height: 100px;
+    
 }
 
 
@@ -228,6 +230,10 @@ margin-bottom: 10px;
 otherImages{
     position: relative;
 
+}
+#linktocontact{
+    text-decoration: none;
+    color: rgb(194, 8, 8);
 }
 
 #other1{
